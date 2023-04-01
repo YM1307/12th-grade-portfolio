@@ -1,0 +1,38 @@
+body
+    {
+        background-color:white;
+        color: black;
+    }
+
+.Portfolio
+    {
+        margin-inline-start: 5%;
+    }
+
+header
+    {
+        margin: -10px;
+        background-color: #00bd48;
+    }
+
+h1
+    {
+        text-align: center;
+    }
+
+h4
+    {
+       text-align: end;
+       margin-right: 25px;
+    }
+
+a
+    {
+        color: white;
+        margin-left: 30px;
+    }
+
+h2,p
+    {
+       margin-inline-start: 5%;
+    }

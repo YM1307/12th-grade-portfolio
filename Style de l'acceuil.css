@@ -1,0 +1,110 @@
+body
+    {
+        background-color:white;
+        color: black;
+    }
+
+header
+    {
+        margin: -10px;
+        margin-bottom: -100px;
+        text-align: center;
+        font-size: 80px;
+        background-color: #00bd48;
+    }
+
+.square
+    {
+        display: inline-block;
+        position: relative;
+    }
+
+.square::after
+    {
+        display:inline-block;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 24px;
+        color: white;
+        background-color: #00a33f;
+        margin-left: 85px;
+        margin-top: -10px;
+        border: solid #00a33f 5px;
+    }
+
+.square:nth-child(2)::after
+    {
+        content: "C";
+        margin-top: -100px;
+        
+    }
+
+.square:nth-child(3)::after
+    {
+        content: "D";
+    }
+
+    .square:nth-child(4)::after
+    {
+        content: "E";
+    }
+
+.square:nth-child(5)::after
+    {
+        content: "F";
+    }
+
+.oval
+    {
+        display:inline-block;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        
+        font-size: 24px;
+        color: white;
+        background-color: #00bd48;
+        border-radius: 100px / 100px;
+        border: solid #00a33f 5px;
+        margin-left: -1000px;
+    }
+
+.oval a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+
+h1,h2
+    {
+        text-align: left;
+        font-size: medium;
+        color: white;
+        margin-left: 50px;
+    }
+
+h2
+    {
+        font-size: 50px;
+    }
+
+a
+    {
+        font-size: small;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white 
+    }
+
+p
+    {
+        text-align: left;
+        color: white;
+        font-size: small;
+        margin-right: 50%;
+        margin-left: 50px;
+    }
+
